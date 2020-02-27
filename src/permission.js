@@ -1,6 +1,4 @@
-import store from './store'
 import router from './router'
-import * as session from './utils/session'
 
 import NProgress from 'nprogress' // progress bar
 import 'nprogress/nprogress.css' // progress bar style

@@ -2,10 +2,9 @@
 import Vue from 'vue'
 
 import VanLoading from './VanLoading'
-import PdfAgreement from './PdfAgreement'
 
 // 组件库
-const Components = [VanLoading, PdfAgreement]
+const Components = [VanLoading]
 
 // 注册全局组件
 Components.map(com => {
