@@ -13,7 +13,7 @@ import './components/install' // 自定义全局组件
 import './setting' // 全局设置文件
 import './directive' // 自定义全局指令
 import './filters' // 自定义全局过滤器
-import '@/styles/index.scss' // 全局样式文件
+import './styles/index.scss' // 全局样式文件
 import './mock'
 import './permission'
 

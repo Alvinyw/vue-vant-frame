@@ -1,10 +1,10 @@
 import axios from 'axios'
-import md5 from 'js-md5';
-import store from '../store'
-import {
-  getYYMMDD,
-  getUUID
-} from '../utils/dateFormate'
+// import md5 from 'js-md5';
+// import store from '../store'
+// import {
+//   getYYMMDD,
+//   getUUID
+// } from '../utils/lib'
 
 // create an axios instance
 const service = axios.create({

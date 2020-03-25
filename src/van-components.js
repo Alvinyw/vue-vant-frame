@@ -3,39 +3,18 @@ import Vue from 'vue'
 
 import {
     Button,
-    Cell,
-    CellGroup,
-    PasswordInput,
-    NumberKeyboard,
     Field,
-    Toast,
     NavBar,
-    Checkbox,
-    CheckboxGroup,
+    Toast,
     Notify,
-    Tab,
-    Tabs,
     Loading,
-    Row,
-    Col,
-    Popup,
-    List,
-    PullRefresh,
     Overlay,
-    Grid,
-    GridItem,
-    CountDown,
-    RadioGroup,
-    Radio,
-    ActionSheet,
     Dialog,
-    Picker,
-    Progress,
-    DatetimePicker
+    Progress
 } from 'vant';
 
 // 组件库
-const Components = [DatetimePicker, Progress, Picker, Dialog, ActionSheet, RadioGroup, Radio, CountDown, Grid, GridItem, Button, Overlay, Cell, CellGroup, Field, PasswordInput, NumberKeyboard, Toast, NavBar, Checkbox, CheckboxGroup, Notify, Row, Col, Popup, Tab, Tabs, Loading, List, PullRefresh]
+const Components = [Progress, Dialog, Button, Overlay, NavBar, Field, Toast, Notify, Loading]
 
 // // 将 "van-button" 转成 "Button" / "van-datetime-picker" 转成 "DatetimePicker"
 // // 截取组件名称
