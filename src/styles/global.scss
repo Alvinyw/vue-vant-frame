@@ -1,3 +1,40 @@
+html,
+body {
+    font-family: "PingFang SC", "Helvetica Neue", Helvetica, "Microsoft Yahei", Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    touch-action: pan-y; // 修复移动端滑动时页面卡顿问题
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    // color: var(--themeColor);
+    color: #486AAF;
+}
+
 .g_container {
   padding: 0 30px;
+}
+
+@font-face {
+    font-family: 'Farrington-7B-Qiqi';
+    src: url('../assets/fonts/Farrington-7B-Qiqi.ttf') format('truetype');
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'DINBold';
+    src: url('../assets/fonts/DIN-Bold.otf') format('truetype');
+    /* Safari, Android, iOS */
 }
