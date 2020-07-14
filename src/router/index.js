@@ -15,6 +15,13 @@ const router = new Router({
       component: () => import( /* webpackChunkName: "home" */ '@/views/home/index'),
     },
 
+    // 协议页面
+    {
+      path: '/agreement',
+      name: 'agreement',
+      component: () => import( /* webpackChunkName: "agreement" */ '@/views/agreement/index'),
+    },
+    
     // 成功
     {
       path: '/success',

@@ -5,6 +5,15 @@ import store from './store'
 import router from './router'
 import i18n from './lang' // 引入多语言配置文件
 
+// 移动端控制台
+if (process.env.VUE_APP_ENV === 'test') {
+  import('vconsole').then(module => {
+    const Vconsole = module.default
+    const vConsole = new Vconsole()
+    Vue.use(vConsole)
+  })
+}
+
 import './utils/rem' // 适配移动端设备
 import './api' // 接口文件
 import './utils' // 工具库

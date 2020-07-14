@@ -3,19 +3,17 @@ import router from './router'
 import NProgress from 'nprogress' // progress bar
 import 'nprogress/nprogress.css' // progress bar style
 
+import * as lib from './utils/lib'
+
 NProgress.configure({
   showSpinner: false,
 })
 
-const setThemeColor = function (color) {
-  document.body.style.setProperty('--themeColor', color)
-}
+lib.setThemeColor('#F85A52')
 
 router.beforeEach(async (to, from, next) => {
   // start progress bar
   NProgress.start()
-
-  setThemeColor("#F85A52")
 
   // 进入页面
   next()

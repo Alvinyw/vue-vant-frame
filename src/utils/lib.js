@@ -33,3 +33,9 @@ export function getUUID() {
   var uuid = s.join("");
   return uuid;
 }
+
+// 设置主题颜色
+export function setThemeColor(color) {
+	const _color = color || '#F85A52'
+	document.body.style.setProperty('--themeColor', _color)
+}

@@ -9,6 +9,10 @@ function setRem() {
 
     //设置根元素字体大小
     htmlDom.style.fontSize = htmlWidth / 10 + 'px';
+
+    // 设置 1vh 的精确值
+    let _vh = window.innerHeight * 0.01
+    document.body.style.setProperty('--vh', `${_vh}px`)
 }
 
 // 初始化

@@ -24,7 +24,11 @@ a {
 }
 
 .g_container {
-  padding: 0 30px;
+    padding: 0 30px;
+}
+
+.g_flex-auto {
+    flex: 1 1 auto;
 }
 
 @font-face {
